@@ -1,0 +1,154 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 34px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 33px;
+    cursor: pointer;
+    /* align-content: flex-end;
+    justify-content: flex-end; */
+}
+
+.logo img {
+    /* display: flex; */
+    width: 180px;
+}
+
+.right ul li {
+    gap: 30px;
+
+
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:hover {
+    transform: scale(1.5);
+}
+
+.translate:hover {
+    transform: scale(1.5);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 0px;
+    gap: 30px;
+}
+.upperdiv{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 45px;
+}
+.middlediv{
+    padding: 30px;
+    font-size: 25px;
+    width: 50vw;
+    height: 4vh;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    text-align: center;
+}
+button{
+    padding: 15px 20px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #00b6d1;
+    border: none;
+    font-size: 15px;
+
+}
+.image1{
+    cursor: pointer;
+}
+.niche{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 25px;
+    gap: 5px;
+    font-weight: lighter;
+    padding: 50px;
+}
+.niche2{
+    font-size: 20px;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* background-color:#c60707 ;
+    max-width: 302px; */
+}
+.ok11{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.item33{
+    background-color: #f9f9f9;
+    padding: 27px 63px;
+    /* width: 200px; */
+}
+.sha1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI' ;
+    color: rgb(141, 141, 141);
+    font-size: 7px;
+    padding: 5px;
+}
+.a77{
+    text-align: center;
+    font-family:'Segoe UI' ;
+    color: rgb(141, 141, 141);
+    font-size: 7px;
+    padding: 5px;
+}
+.maindiv{
+    text-align: center;
+    font-family:'Segoe UI' ;
+    color: rgb(141, 141, 141);
+    font-size: 4px;
+    padding: 2px;
+}
+.pointer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.mainsection{
+
+    display: grid;
+    grid-template-columns: 500px 450px 500px;
+    column-gap: 5px;
+    row-gap: 10px;
+}
+.anotherbutton{
+    padding: 15px 20px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(0, 208, 130);
+    border: none;
+    font-size: 15px;
+
+}
+.upperbutton{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+}
